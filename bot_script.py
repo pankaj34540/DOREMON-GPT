@@ -7,7 +7,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Telegram bot API token (environment variable se fetch kar rahe hain)
-TELEGRAM_API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')
+TELEGRAM_API_TOKEN = os.getenv('8099461644:AAHNje3fiU53Fyoh0V95GVD8bbEXTFqsXtA')
 
 # Function to get ChatGPT response
 def chatgpt_response(prompt: str) -> str:
