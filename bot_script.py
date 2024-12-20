@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # OpenAI API key (environment variable se fetch kar rahe hain)
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = os.getenv('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')
 
 # Telegram bot API token (environment variable se fetch kar rahe hain)
 TELEGRAM_API_TOKEN = os.getenv('8099461644:AAHNje3fiU53Fyoh0V95GVD8bbEXTFqsXtA')
